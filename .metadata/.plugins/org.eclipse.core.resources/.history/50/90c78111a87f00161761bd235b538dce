@@ -1,0 +1,19 @@
+package Obstaculo;
+
+import general.gameObject;
+
+
+
+public class Aguila extends Obstaculo{
+	private static final String ruta="Aguilucho";
+	protected boolean avanzable;
+	protected boolean destructible;
+	
+	public Aguila(int x,int y){
+		defaultX= x;
+		defaultY= y;
+		avanzable=false;
+		destructible=true;
+	}
+	
+}

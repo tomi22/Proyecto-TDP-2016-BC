@@ -1,0 +1,17 @@
+package Obstaculo;
+
+import general.gameObject;
+
+
+public class Agua extends Obstaculo {
+	private static final String ruta="Agua";
+	
+	
+	
+	public Agua(int x,int y){
+		avanzable=false;
+		destructible=false;
+		
+	}
+	
+}

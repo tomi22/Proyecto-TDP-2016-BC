@@ -1,0 +1,18 @@
+package Obstaculo;
+
+
+public class Agua extends Obstaculo {
+	//private static final String ruta;
+	
+	
+	public Agua(int x,int y){
+		avanzable=false;
+		destructible=false;
+		path= this.getClass().getResource("Agua.png")"Agua";
+	}
+	
+	public String getPath(){
+		return ruta;
+	}
+	
+}

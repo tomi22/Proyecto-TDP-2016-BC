@@ -1,0 +1,19 @@
+package Obstaculo;
+
+import general.gameObject;
+
+
+
+public class Cemento extends gameObject {
+	private static final String ruta="Cemento";
+	protected boolean avanzable;
+	protected boolean destructible;
+	
+	public Cemento(int x,int y){
+		defaultX= x;
+		defaultY= y;
+		avanzable=false;
+		destructible=false;
+	}
+	
+}

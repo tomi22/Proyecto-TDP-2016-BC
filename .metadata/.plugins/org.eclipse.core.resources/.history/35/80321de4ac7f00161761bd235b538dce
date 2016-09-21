@@ -1,0 +1,19 @@
+package Obstaculo;
+
+
+
+public class Vacio extends Obstaculo {
+	private static final String ruta="Vacio";
+	
+	public Vacio(int x,int y){
+		defaultX= x;
+		defaultY= y;
+		destructible=false;
+		avanzable=true;
+		path= "src/Aplicacion/resources/Vacio.png";
+	}
+	
+	//public String getPath(){
+	//	return ruta;
+	//}
+}

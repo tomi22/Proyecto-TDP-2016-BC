@@ -1,0 +1,18 @@
+package Obstaculo;
+
+
+
+public class Bosque extends Obstaculo {
+	private static final String ruta="Bosque";
+	
+	public Bosque(int x,int y){
+		defaultX= x;
+		defaultY= y;
+		avanzable=true;
+		destructible=false;
+	}
+	
+	public String getPath(){
+		return ruta;
+	}
+}

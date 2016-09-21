@@ -1,0 +1,19 @@
+package Obstaculo;
+
+import general.gameObject;
+
+
+
+public class Bosque extends gameObject {
+	private static final String ruta="Bosque";
+	protected boolean avanzable;
+	protected boolean destructible;
+	
+	public Bosque(int x,int y){
+		defaultX= x;
+		defaultY= y;
+		avanzable=true;
+		destructible=false;
+	}
+	
+}

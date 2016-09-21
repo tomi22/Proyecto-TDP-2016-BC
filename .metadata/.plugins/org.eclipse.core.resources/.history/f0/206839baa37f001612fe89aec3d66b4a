@@ -1,0 +1,30 @@
+package general;
+
+public abstract class gameObject {
+		private int defaultX,defaultY;
+		protected boolean avanzable;
+		protected boolean destructible;
+		
+		protected String path;
+		protected String path_dinamico;
+		protected String extension=".png";
+		
+		
+		public int getX(){
+			return defaultX;
+		}
+		public int getY(){
+			return defaultY;
+		}
+		
+		
+		///////////////////////////////////////////////////////
+		public String getPath(){
+			return path+path_dinamico+extension;
+		}
+		
+		public void setPath(String s){
+			path_dinamico+=s;
+		}
+		
+}
